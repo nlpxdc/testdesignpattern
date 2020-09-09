@@ -1,4 +1,6 @@
 package io.cjf.testdesignpattern.simplefactory;
 
-public class IPhone implements Phone{
+import io.cjf.testdesignpattern.Phone;
+
+public class IPhone implements Phone {
 }
