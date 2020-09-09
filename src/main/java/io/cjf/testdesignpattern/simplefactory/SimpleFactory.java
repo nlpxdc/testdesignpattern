@@ -1,9 +1,9 @@
 package io.cjf.testdesignpattern.simplefactory;
 
-import io.cjf.testdesignpattern.Honor;
-import io.cjf.testdesignpattern.IPhone;
-import io.cjf.testdesignpattern.Nokia;
-import io.cjf.testdesignpattern.Phone;
+import io.cjf.testdesignpattern.product.Honor;
+import io.cjf.testdesignpattern.product.IPhone;
+import io.cjf.testdesignpattern.product.Nokia;
+import io.cjf.testdesignpattern.product.Phone;
 
 public class SimpleFactory {
 

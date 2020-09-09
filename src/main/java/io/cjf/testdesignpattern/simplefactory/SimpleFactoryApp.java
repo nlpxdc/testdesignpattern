@@ -1,6 +1,6 @@
 package io.cjf.testdesignpattern.simplefactory;
 
-import io.cjf.testdesignpattern.Phone;
+import io.cjf.testdesignpattern.product.Phone;
 
 public class SimpleFactoryApp {
     public static void main(String[] args) {

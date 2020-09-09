@@ -1,6 +1,6 @@
 package io.cjf.testdesignpattern.factorymethod;
 
-import io.cjf.testdesignpattern.Phone;
+import io.cjf.testdesignpattern.product.Phone;
 
 public abstract class AbstractSimpleFactory {
     public abstract Phone createPhone();

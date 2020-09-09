@@ -1,7 +1,7 @@
 package io.cjf.testdesignpattern.factorymethod;
 
-import io.cjf.testdesignpattern.Phone;
-import io.cjf.testdesignpattern.IPhone;
+import io.cjf.testdesignpattern.product.Phone;
+import io.cjf.testdesignpattern.product.IPhone;
 
 public class IPhoneFactory extends AbstractSimpleFactory {
 
