@@ -1,4 +1,4 @@
-package io.cjf.testdesignpattern.simplefactory;
+package io.cjf.testdesignpattern;
 
 import io.cjf.testdesignpattern.Phone;
 
