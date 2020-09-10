@@ -29,4 +29,8 @@ public class MobilePhone {
         this.disk = disk;
     }
 
+    public static MobilePhoneBuilder newBuilder() {
+        return new MobilePhoneBuilder();
+    }
+
 }

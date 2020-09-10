@@ -9,5 +9,13 @@ public class BuilderApp {
                 .build();
         System.out.println(mobilePhone);
 
+        MobilePhone mobilePhone1 = MobilePhone.newBuilder()
+                .setCPU("880")
+                .setRAM(245)
+                .setDisk(444L)
+                .build();
+        System.out.println(mobilePhone1);
+
+
     }
 }
