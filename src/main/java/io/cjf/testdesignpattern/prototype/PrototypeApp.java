@@ -16,5 +16,11 @@ public class PrototypeApp {
         DemoPhone clone = demoPhone.clone();
         System.out.println(demoPhone);
         System.out.println(clone);
+
+        DemoPhone demoPhone1 = BeanUtil.<DemoPhone>deepClone(demoPhone);
+        DemoPhone demoPhone2 = BeanUtil.deepClone(demoPhone);
+
+        Object o = BeanUtil.deepCopy(demoPhone);
+        Object o1 = BeanUtil.shallowCopy(demoPhone);
     }
 }
