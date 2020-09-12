@@ -7,5 +7,9 @@ public class ProxyApp {
         CMBAccountProxy cmbAccountProxy = new CMBAccountProxy(cmbAccount);
         cmbAccountProxy.transfer();
 
+        CCBAccount ccbAccount = new CCBAccount();
+        CCBAccountProxy ccbAccountProxy = new CCBAccountProxy(ccbAccount);
+        ccbAccountProxy.transfer();
+
     }
 }

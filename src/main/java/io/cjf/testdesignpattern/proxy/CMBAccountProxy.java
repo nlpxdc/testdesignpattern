@@ -10,8 +10,8 @@ public class CMBAccountProxy implements Account{
 
     @Override
     public void transfer() {
-        System.out.println("begin transaction");
+        System.out.println("begin cmb transaction");
         cmbAccount.transfer();
-        System.out.println("end transaction");
+        System.out.println("end cmb transaction");
     }
 }

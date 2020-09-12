@@ -1,9 +1,8 @@
 package io.cjf.testdesignpattern.proxy;
 
-public class CMBAccount implements Account{
-
+public class CCBAccount implements Account {
     @Override
     public void transfer() {
-        System.out.println("cmb transfer");
+        System.out.println("ccb transfer");
     }
 }
