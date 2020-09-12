@@ -11,5 +11,7 @@ public class ProxyApp {
         CCBAccountProxy ccbAccountProxy = new CCBAccountProxy(ccbAccount);
         ccbAccountProxy.transfer();
 
+        Object proxy = BeanUtil.createProxy(CMBAccount.class, Account.class);
+
     }
 }
